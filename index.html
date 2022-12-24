@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <title>BOOSTED USA</title>
+</head>
+
+<body>
+    <div class="upward" onclick="scrollTopTop()">
+        
+    </div>
+<header class="header">
+    <div class="header-flex">
+        <picture>
+            <source media="(max-width:768px)" srcset="/images/icons/logo-sm.svg">
+            <img src="/images/logo.svg" alt="logo">
+        </picture>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="header-menu">
+            <li class="header-menu__item"><a href="#">Electric Skateboards</a></li>
+            <li class="header-menu__item"><a href="#">Electric Scooters</a></li>
+            <li class="header-menu__item"><a href="#">Accessories</a></li>
+            <li class="header-menu__item"><a href="#">Gift Card</a></li>
+            <li class="header-menu__item"><a href="#">More Info</a></li>
+        </ul>
+        <div class="header-login">
+            <a href="/reg.html"><span class="icon i-user"></span></a>
+            <a href="/reg.html"><span class="icon i-cart"></span></a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="main-sm__img">
+        <img src="/images/main.png" alt="different">
+    </div>
+    <section class="main-bg">
+        <h1 class="main-title">Welcome to Boosted USA</h1>
+        <p class="main-subtitle">The Holy Grail of Electric Skateboards and One REVolutionary Scooter</p>
+        <div class="main-btn">
+            <button class="btn">BOOSTED REVS</button>
+            <button class="btn">BOOSTED BOARDS</button>
+        </div>
+    </section>
+
+<section class="bg-black">
+    <div class="container">
+        <div class="brands">
+            <img src="/images/brand1.png" alt="Electrek">
+            <img src="/images/brand2.png" alt="TechCrunh">
+            <img src="/images/brand3.png" alt="POPULAR MECHANICS">
+            <img src="/images/brand4.png" alt="Wired">
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container">
+        <h2 class="second-title">Remote-first. Secure by design.</h2>
+        <h2 class="second-title__sm">Electric<br>Skateboards</h2>
+        <div class="secure-design__flex">
+            <div class="secure-design__images">
+                <div class="design-img">
+                    <img src="/images/Scooter1.png" alt="scooter" class="img-radius">
+                    <div class="text">
+                        <p>Excellent maneuverability<br>
+                            Compactness and convenience</p>
+                            <button class="secondary-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="design-img">
+                    <img src="/images/Scooter2.png" alt="scooter" class="img-radius">
+                    <div class="text">
+                        <p>Outdoor training<br>
+                            economical mode of transport.</p>
+                            <button class="secondary-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-block">
+                <h3 class="third">Boosted Rev</h3>
+                <p class="third-text">There's never been an electric scooter quite like this. Speed past traffic at 24 mph. Go up to 22 miles on a single charge. You'll get there in no time at all. Stop and go with the roll of your thumb. Its intuitive design means there’s almost no learning curve.</p>
+                <button class="secondary-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="privileges">
+            <div class="privileges-item">
+                <img src="/images/icons/speed.svg" alt="speed">
+                <h4>Go Fast</h4> 
+                <p>Boosted is known for its premium performance boards offering a next-level experience.</p>
+            </div>
+            <div class="privileges-item">
+                <img src="/images/icons/go-far.svg" alt="go-far">
+                <h4>Go Far</h4>
+                <p>With optional extended battery life, you can get wherever you need to go reliably.</p>
+            </div>
+            <div class="privileges-item">
+                <img src="/images/icons/safe.svg" alt="safe">
+                <h4>Go safe</h4>
+                <p>Safety is a #1 priority for Boosted, always wear a helmet when riding.</p>
+            </div>
+            <div class="privileges-item">
+                <img src="/images/icons/last.svg" alt="last">
+                <h4>Built to Last!</h4>
+                <p>Boosted products are engineered to last for years and are extremely reliable.</p>
+            </div>
+</section>
+<section class="order">
+    <div class="container">
+        <div class="order-flex">
+            <h2 class="order-question">Are you <br>interested?</h2>
+            <div class="order-container">
+                <div class="order-form__text">
+                    To order our amazing scateborard, fill the form
+                </div>
+                <form class="order-form" action="#">
+                    <div class="of_row">
+                        <div class="of_group">
+                            <label for="first-name">First name*</label>
+                            <input type="text" placeholder="Put your first name (required)" name="first-name" id="first-name" required>
+                        </div>
+                        <div class="of_group">
+                            <label for="second-name">Second name*</label>
+                            <input type="text" placeholder="Put your second name (required)" name="second-name" id="second-name" required>
+                        </div>
+                    </div>
+                    <div class="of_row">
+                        <div class="of_group">
+                            <label for="phone-number">Phone number*</label>
+                            <input type="tel" placeholder="8(999)999-99-99 (required)" name="phone-number" id="phone-number" required>
+                        </div>
+                        <div class="of_group">
+                            <label for="model">Choose the model*</label>
+                            <select name="model" id="model" required>
+                                <option value="">Select</option>
+                                <option value="electrek">Electrek</option>
+                                <option value="techcrunh">TechCrunh</option>
+                                <option value="popularmechanics">POPULAR MECHANICS</option>
+                                <option value="wired">Wired</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <label for="adress">Adress*</label>
+                        <input type="text" placeholder="Put your adress (required)" id="adress" required>
+                        <label for="additionalinformation">Additional information</label>
+                        <textarea name="additional" id="additional" rows="3" maxlength="100"></textarea>
+                    <div class="submit-wrapper">
+                        <input value="Submit" type="submit" class="btn btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+<div class="container">
+    <div class="footer-flex">
+        <img src="/images/footer-logo.png" alt="footer-logo">
+        <p>Boosted empowers people everywhere to commute across their cities, campuses, and communities in ways that were never before possible. Boosted is solving one of the biggest problems people face each day: transportation. By <a href="https://kodkodych.ru/">kodkodych</a></p>
+    </div>
+</div>
+</footer>
+<script src="/js/hello.js" type="module"></script>
+<script src="/js/arrow.js"></script>
+</body>
+</html>
+
+<!--sergiy.naumenko10@gmail.com-->
+<!--https://icomoon.io/app/#/select-->
